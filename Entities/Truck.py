@@ -13,4 +13,4 @@ class Truck:
 
     def addPathPoint(self, *arg):
         for point in arg:
-            self.loads.append(point)
+            self.currentPath.append(point)
